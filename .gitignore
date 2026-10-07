@@ -1,0 +1,90 @@
+# ==============================
+# C++ / MinGW
+# ==============================
+
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# Keep useful VS Code settings if needed
+# !.vscode/settings.json
+
+# ==============================
+# CMake
+# ==============================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+*.cmake
+
+# ==============================
+# Logs / Temporary files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# OS files
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Program-specific files
+# ==============================
+
+*.swp
+*.swo
